@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap"');
+
+.quicktabs-main {
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  .quicktabs-main {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .slider-tab.active {
+    max-width: 104px;
+  }
+}
+
+.slider-tab.active a {
+  position: relative;
+  font-size: 14px;
+  color: #424a55;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider-tab.active a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slider-tab.active a {
+    font-size: 24px;
+  }
+}
+
+.slider-tab.active a:after, .slider-tab.active a:before {
+  border: solid transparent;
+  content: " ";
+  display: block;
+  height: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 0;
+  top: 42px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider-tab.active a:after, .slider-tab.active a:before {
+    top: 34px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slider-tab.active a:after, .slider-tab.active a:before {
+    top: 39px;
+  }
+}
+
+.slider-tab.active a:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #ffffff;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 10px;
+}
+
+.slider-tab.active a:before {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #0b80ce;
+  left: 50%;
+  margin-left: -14px;
+  border-width: 12px;
+}
+
+.quicktabs-wrapper {
+  margin-bottom: 50px;
+}
+
+.quicktabs-wrapper .slider-tab.active a {
+  font-size: 12px;
+  color: #424a55;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .quicktabs-wrapper .slider-tab.active a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .quicktabs-wrapper .slider-tab.active a {
+    font-size: 24px;
+  }
+}
+
+.quicktabs-wrapper .quicktabs-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+  padding: 0;
+  border-bottom: 2px solid #017fd5;
+}
+
+@media (min-width: 1025px) {
+  .quicktabs-wrapper .quicktabs-tabs {
+    margin: 0 82px;
+  }
+}
+
+.quicktabs-wrapper .quicktabs-tabs li,
+.quicktabs-wrapper .quicktabs-tabs a {
+  white-space: unset;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #017fd5;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .quicktabs-wrapper .quicktabs-tabs li,
+.quicktabs-wrapper .quicktabs-tabs a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .quicktabs-wrapper .quicktabs-tabs li,
+.quicktabs-wrapper .quicktabs-tabs a {
+    font-size: 18px;
+  }
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+@media (min-width: 1025px) {
+  .slick-prev {
+    left: 0;
+  }
+}
+
+.slick-prev:before {
+  content: url("/themes/custom/drupaltaskspecbee/images/svg/left-arrow.svg");
+}
+
+.slick-prev:hover:before {
+  content: url("/themes/custom/drupaltaskspecbee/images/svg/left-arrow-hover.svg");
+}
+
+.slick-next {
+  right: 10px;
+}
+
+@media (min-width: 1025px) {
+  .slick-next {
+    right: 0;
+  }
+}
+
+.slick-next:before {
+  content: url("/themes/custom/drupaltaskspecbee/images/svg/right-arrow.svg");
+}
+
+.slick-next:hover:before {
+  content: url("/themes/custom/drupaltaskspecbee/images/svg/right-arrow-hover.svg");
+}
+
+.slick-list {
+  margin: 0 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slick-list {
+    margin: 0 50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slick-list {
+    margin: 0 110px;
+  }
+}
+
+.slider-container-custom {
+  height: 460px;
+}
+
+@media (min-width: 768px) {
+  .slider-container-custom {
+    height: 400px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .slick-dots li button::before {
+    font-size: 42px;
+  }
+
+  .slick-dots li.slick-active button::before {
+    color: #0b80ce;
+  }
+}
+/*# sourceMappingURL=../../../maps/molecules/quick-tabs/quick-tabs.css.map */

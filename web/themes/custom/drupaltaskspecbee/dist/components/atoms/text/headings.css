@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap"');
+
+.component-heading {
+  color: #424a55;
+  font-size: 36px;
+  line-height: 56px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.component-subheading {
+  color: #7c8993;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 83px;
+  padding: 0 20px;
+}
+/*# sourceMappingURL=../../../maps/atoms/text/headings.css.map */

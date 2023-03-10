@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/_fonts.scss"],"names":[],"mappings":"AACQ,gFAAA","file":"../components/global.css","sourcesContent":["// Define fonts scss variables here\n@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap\"');\n"]}

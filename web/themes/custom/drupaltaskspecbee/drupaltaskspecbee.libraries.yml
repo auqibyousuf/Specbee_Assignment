@@ -1,0 +1,34 @@
+global:
+  css:
+    theme:
+      dist/components/global.css: {}
+  js:
+    dist/components/main.js:
+      attributes:
+        type: module
+
+quick-tabs:
+  css:
+    theme:
+      dist/components/molecules/quick-tabs/quick-tabs.css: {}
+
+slick-carousel:
+  css:
+    theme:
+      /libraries/slick-carousel/slick.css: {}
+      /libraries/slick-carousel/slick-theme.css: {}
+  js:
+    /libraries/slick-carousel/slick.min.js: {}
+    dist/components/molecules/slick-slider/slick-slider.js: {}
+  dependencies:
+    - core/jquery
+
+headings:
+  css:
+    theme:
+      dist/components/atoms/text/headings.css: {}
+
+card:
+  css:
+    theme:
+      dist/components/molecules/card/card.css: {}
