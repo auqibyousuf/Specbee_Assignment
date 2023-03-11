@@ -1,0 +1,10 @@
+uuid: a34a23f0-2cdb-42af-a109-eb548b953b2f
+langcode: en
+status: true
+dependencies: {  }
+id: slider_card
+label: 'Slider Card'
+icon_uuid: null
+icon_default: null
+description: 'Single card for each slider item'
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 956fa5eb-ec92-4fc8-8eab-94faf91706e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_date
+    - node.type.card
+  module:
+    - datetime
+id: node.card.field_card_date
+field_name: field_card_date
+entity_type: node
+bundle: card
+label: 'card date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

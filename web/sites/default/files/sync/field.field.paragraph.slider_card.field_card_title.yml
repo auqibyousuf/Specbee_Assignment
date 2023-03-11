@@ -1,0 +1,19 @@
+uuid: 7e9e6f96-7550-4d6c-9154-4214eae0e52b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_title
+    - paragraphs.paragraphs_type.slider_card
+id: paragraph.slider_card.field_card_title
+field_name: field_card_title
+entity_type: paragraph
+bundle: slider_card
+label: 'card title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

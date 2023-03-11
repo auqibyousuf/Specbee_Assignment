@@ -1,0 +1,18 @@
+uuid: d872c33b-a324-4ab8-b578-1ed1c1f467bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_card_favourite
+field_name: field_card_favourite
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

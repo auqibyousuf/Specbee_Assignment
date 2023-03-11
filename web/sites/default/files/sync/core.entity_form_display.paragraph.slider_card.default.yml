@@ -1,0 +1,106 @@
+uuid: 8904822c-8268-4993-a303-39cc74e3a908
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_card.field_card_date
+    - field.field.paragraph.slider_card.field_card_department
+    - field.field.paragraph.slider_card.field_card_download
+    - field.field.paragraph.slider_card.field_card_favourite
+    - field.field.paragraph.slider_card.field_card_image
+    - field.field.paragraph.slider_card.field_card_link
+    - field.field.paragraph.slider_card.field_card_location
+    - field.field.paragraph.slider_card.field_card_tag
+    - field.field.paragraph.slider_card.field_card_title
+    - field.field.paragraph.slider_card.field_card_view_details
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slider_card
+  module:
+    - datetime
+    - file
+    - image
+    - link
+id: paragraph.slider_card.default
+targetEntityType: paragraph
+bundle: slider_card
+mode: default
+content:
+  field_card_date:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_card_department:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_download:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_card_favourite:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_card_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_card_link:
+    weight: 6
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_card_location:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_tag:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_view_details:
+    weight: 9
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
