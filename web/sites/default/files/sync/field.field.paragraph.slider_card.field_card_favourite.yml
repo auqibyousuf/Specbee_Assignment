@@ -1,0 +1,23 @@
+uuid: 55c1fe3b-a191-41e9-b8ee-dfa7a93572b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_favourite
+    - paragraphs.paragraphs_type.slider_card
+id: paragraph.slider_card.field_card_favourite
+field_name: field_card_favourite
+entity_type: paragraph
+bundle: slider_card
+label: 'card favourite'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

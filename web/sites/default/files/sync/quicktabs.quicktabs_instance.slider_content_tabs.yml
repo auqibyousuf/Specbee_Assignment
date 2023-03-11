@@ -1,0 +1,84 @@
+uuid: 6f1dbdf6-59e7-4b46-baca-cddaf3648ff8
+langcode: en
+status: true
+dependencies: {  }
+id: slider_content_tabs
+label: 'Slider Content Tabs'
+renderer: quick_tabs
+options:
+  quick_tabs:
+    class: slider-tab
+    style: ''
+    ajax: false
+hide_empty_tabs: false
+default_tab: 9999
+configuration_data:
+  -
+    title: 'Featured Conferences'
+    weight: 0
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: 'some block title'
+          display_title: false
+      node_content:
+        options:
+          nid: '1'
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: featured_conferences_view
+          display: block_1
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Recommended Conferences'
+    weight: 0
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: featured_conferences_view
+          display: block_2
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Past Conferences'
+    weight: 0
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: featured_conferences_view
+          display: block_3
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''

@@ -16,7 +16,10 @@
 local.blt.yml
 
 # Ignore Drupal's file directory
-/web/sites/*/files/
+/web/sites/*/files/css
+/web/sites/*/files/js
+/web/sites/*/files/styles
+/web/sites/*/files/2023-03
 /web/sites/*/public
 /web/sites/*/private
 /web/sites/*/files-public
@@ -54,7 +57,6 @@ tmp
 # Logs and databases #
 ######################
 *.log
-*.sql
 
 # OS generated files #
 ######################

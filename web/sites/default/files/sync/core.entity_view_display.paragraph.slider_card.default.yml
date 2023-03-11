@@ -1,0 +1,119 @@
+uuid: caefa15f-8982-43cb-83dd-194af09307bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_card.field_card_date
+    - field.field.paragraph.slider_card.field_card_department
+    - field.field.paragraph.slider_card.field_card_download
+    - field.field.paragraph.slider_card.field_card_favourite
+    - field.field.paragraph.slider_card.field_card_image
+    - field.field.paragraph.slider_card.field_card_link
+    - field.field.paragraph.slider_card.field_card_location
+    - field.field.paragraph.slider_card.field_card_tag
+    - field.field.paragraph.slider_card.field_card_title
+    - field.field.paragraph.slider_card.field_card_view_details
+    - paragraphs.paragraphs_type.slider_card
+  module:
+    - datetime
+    - file
+    - image
+    - link
+id: paragraph.slider_card.default
+targetEntityType: paragraph
+bundle: slider_card
+mode: default
+content:
+  field_card_date:
+    weight: 3
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_card_department:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_download:
+    weight: 5
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_card_favourite:
+    weight: 7
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_card_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_card_link:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_card_location:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_tag:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_view_details:
+    weight: 9
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

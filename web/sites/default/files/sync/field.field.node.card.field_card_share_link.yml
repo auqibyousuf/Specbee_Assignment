@@ -1,0 +1,23 @@
+uuid: 155dce27-bde4-4796-a17b-743735d40995
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_share_link
+    - node.type.card
+  module:
+    - link
+id: node.card.field_card_share_link
+field_name: field_card_share_link
+entity_type: node
+bundle: card
+label: 'card share link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

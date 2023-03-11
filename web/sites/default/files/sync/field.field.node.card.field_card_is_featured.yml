@@ -1,0 +1,23 @@
+uuid: 61651dbc-2bab-49ae-aee7-156c4ff4b8fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_is_featured
+    - node.type.card
+id: node.card.field_card_is_featured
+field_name: field_card_is_featured
+entity_type: node
+bundle: card
+label: 'card is-featured'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

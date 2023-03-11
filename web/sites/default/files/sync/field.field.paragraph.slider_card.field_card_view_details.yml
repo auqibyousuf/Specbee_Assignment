@@ -1,0 +1,23 @@
+uuid: 62f41469-8063-451c-aacd-30fc456a136b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_view_details
+    - paragraphs.paragraphs_type.slider_card
+  module:
+    - link
+id: paragraph.slider_card.field_card_view_details
+field_name: field_card_view_details
+entity_type: paragraph
+bundle: slider_card
+label: 'card view details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

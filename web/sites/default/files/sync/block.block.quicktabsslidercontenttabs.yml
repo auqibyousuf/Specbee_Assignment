@@ -1,0 +1,26 @@
+uuid: 5500fc10-f6d4-4340-8945-5ece6dcae846
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - drupaltaskspecbee
+id: quicktabsslidercontenttabs
+theme: drupaltaskspecbee
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:slider_content_tabs'
+settings:
+  id: 'quicktabs_block:slider_content_tabs'
+  label: 'QuickTabs - Slider Content Tabs'
+  provider: quicktabs
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

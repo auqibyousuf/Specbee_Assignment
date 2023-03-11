@@ -1,0 +1,21 @@
+uuid: 554e984f-ff03-4c40-8bf5-01e792c39ef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_date
+    - paragraphs.paragraphs_type.slider_card
+  module:
+    - datetime
+id: paragraph.slider_card.field_card_date
+field_name: field_card_date
+entity_type: paragraph
+bundle: slider_card
+label: 'card date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,19 @@
+uuid: 93a8999a-ba24-403e-a432-063d80ed7c63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_l
+    - node.type.card
+id: node.card.field_card_l
+field_name: field_card_l
+entity_type: node
+bundle: card
+label: 'card location'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

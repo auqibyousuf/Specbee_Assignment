@@ -1,0 +1,19 @@
+uuid: 33f595b7-4e30-4ed1-b39d-7e70bb03c5e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_t
+    - node.type.card
+id: node.card.field_card_t
+field_name: field_card_t
+entity_type: node
+bundle: card
+label: 'card title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

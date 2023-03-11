@@ -1,0 +1,26 @@
+uuid: 736f419a-fcee-4a7d-a211-6fee54662fab
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - specbeetask
+id: specbeetask_quicktabsslidercontenttabs
+theme: specbeetask
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:slider_content_tabs'
+settings:
+  id: 'quicktabs_block:slider_content_tabs'
+  label: 'QuickTabs - Slider Content Tabs'
+  provider: quicktabs
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,137 @@
+uuid: 8600a565-d69b-475a-a431-08ea86d9bdc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.card.field_card
+    - field.field.node.card.field_card_date
+    - field.field.node.card.field_card_download
+    - field.field.node.card.field_card_image
+    - field.field.node.card.field_card_is_featured
+    - field.field.node.card.field_card_is_recommended
+    - field.field.node.card.field_card_l
+    - field.field.node.card.field_card_price
+    - field.field.node.card.field_card_share_link
+    - field.field.node.card.field_card_t
+    - field.field.node.card.field_card_view_details_link
+    - node.type.card
+  module:
+    - datetime
+    - file
+    - image
+    - link
+    - user
+id: node.card.default
+targetEntityType: node
+bundle: card
+mode: default
+content:
+  field_card:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_date:
+    weight: 104
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_card_download:
+    weight: 107
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_card_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_card_is_featured:
+    weight: 111
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_card_is_recommended:
+    weight: 110
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_card_l:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_price:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_card_share_link:
+    weight: 108
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_card_t:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_view_details_link:
+    weight: 109
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
